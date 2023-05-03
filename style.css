@@ -3,10 +3,12 @@
     box-sizing: border-box;
     margin: 0;
     overflow: hidden;
+    font-family: 'Gothic A1', sans-serif;
 }
 .logo{
     width: 10%;
     margin-left: 3%;
+    margin-right: 3%;
 }
 header{
     color: aliceblue;
@@ -23,21 +25,30 @@ body{
 .barra__sup {
     font-size: 150%;
     display: inline-flex;
-    list-style-type: none;
     justify-content: space-between;
     align-items: center;
-    margin: 15% 0;
-    padding: 0;
+    margin: 5% 0;
   }
   
   .barra__sup li {
-    font-size: 20px;
-    margin: 0 10px;
+    font-size: 100%;
+    margin: 0 70px;
   }
-  
-  .barra__sup li a {
-    color: #333;
-    padding: 10px;
-    border-radius: 5px;
-  }
-  
+.hamb{
+    width: 35%;
+    margin-left: 60%;
+    margin-top: 5%;
+}
+.promo{
+    width: 15%;
+    margin-top: -100%;
+    margin-bottom: 25%;
+    margin-left: 80%;
+    transform: rotate(19deg);
+}
+.firu{
+    width: 35%;
+    margin-top: -100%;
+    margin-bottom: 12%;
+    margin-left: -3%;
+}
