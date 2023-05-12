@@ -86,22 +86,87 @@ body{
     margin-left: 10%;
     font-size: 120%;
 }
-.faixa{
-    width: 18%;
-    margin-top: -105%;
-    margin-bottom: 150%;
-    margin-left: 40%;
-}
 .yout{
-    width: 5%;
-    margin-top: -145%;
-    margin-bottom: 140%;
-    margin-left: -48%;
+    width: 8%;
+    margin-top: -150%;
+    margin-bottom: 90%;
+    margin-left: 10%;
 }
 .textinhodoyoutube{
     color: aliceblue;
-    margin-top: -143%;
-    margin-bottom: 150%;
-    margin-left: 16%;
-    font-size: 150%;
+    margin-top: -95%;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    font-size: 300%;
+}
+@media (max-width: 450px){
+    header{
+        color: aliceblue;
+        width: 100%;
+        display: flex;
+        
+    }
+    body{
+        background-image: url(./img/bcg.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 130vh;
+    }
+    .logo{
+        width: 60%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .hamb{
+        width: 100%;
+        margin-bottom: 50%;
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    .texto{
+        color: aliceblue;
+        font-size: 10%;
+        margin-bottom: 10%;
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    .barra{
+        width: 40%;
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    .textinho{
+        margin-top: -50%;
+        margin-bottom: 0;
+        margin-left: 0;
+        font-size: 0;
+    }
+    .desc{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        font-size: 0;
+    }
+    .redes{
+        width: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+    .barra__sup {
+        font-size: 0;
+    }
+    .promo{
+        width: 0%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-left: 0%;
+        transform: rotate(19deg);
+    }
+    .firu{
+        width: 0%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-left: 0%;
+    }
 }
